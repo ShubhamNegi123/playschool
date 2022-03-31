@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
+
+// roboto
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+// font-family: 'Finger Paint';
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+// Rubik
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+body {
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        text-decoration: none;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: "Cabin Sketch", cursive;
+    }
+}
+
+.navigation-bar {
+    position: fixed;
+    z-index: 99999;
+    padding: 15px 0px;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    .logo {
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    .header-navigation-links {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                a {
+                    color: #000;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    img {
+        width: 100%;
+    }
+}
+
+.mission-vision {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 50px;
+    background-color: #f2e1ab;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 50px;
+        background-image: url(../images/cloud.png);
+        top: -25px;
+        left: 0px;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 50px;
+        background-image: url(../images/cloud.png);
+        transform: rotate(180deg);
+        bottom: -20px;
+        left: 0px;
+    }
+    .mv-card-wrapper {
+        background-image: url(../images/mask-img2.png);
+        background-size: cover;
+        height: 330px;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        .mv-card {
+            text-align: center;
+            padding: 50px;
+            h2 {
+                color: #3d56f0;
+                text-transform: capitalize;
+                i {
+                    color: #f9c404;
+                }
+            }
+            p {
+                color: #afafaf;
+                margin-bottom: 20px;
+            }
+            span {
+                text-transform: capitalize;
+                background-color: #f9c404;
+                padding: 8px 20px;
+                color: #fff;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.about-us {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .about-content {
+        h2 {
+            font-weight: 700;
+            font-size: 50px;
+            color: #f9c404;            
+            background: none;
+            line-height: 1;
+            padding: 20px 0 30px;
+            margin: 0 0 0 0;
+            position: relative;
+            text-transform: uppercase;
+            span{
+                color: #00a8ff;
+            }
+        }
+        p{
+            color: #6b6a6a;
+            margin-bottom: 20px;
+        }
+        ul{
+            li{
+                color: #6b6a6a;
+                i{
+                    font-size: 14px;
+                    margin-right: 10px;
+                    color: #00a8ff;
+                }
+            }
+        }
+    }
+    .about-img{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+footer {
+    background-color: #c4eafb;
+    position: relative;
+    padding: 100px 0px;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 50px;
+        z-index: 9;
+        top: 0px;
+        left: 0px;
+        background-image: url(../images/line-bg1.png);
+    }
+    .footer-content {
+        img {
+            width: 100%;
+        }
+        p {
+            margin-top: 20px;
+            text-justify: auto;
+            font-size: 18px;
+            line-height: 32px;
+            color: #000;
+            text-transform: capitalize;
+            font-weight: 500;
+            text-align: justify;
+        }
+    }
+    .info {
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #3d56f0;
+            margin: 20px 0px;
+            text-transform: uppercase;
+        }
+        ul {
+            list-style: disc;
+            li {
+                a {
+                    color: #191918;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    margin-bottom: 8px;
+                    display: block;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .recent-post {
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #3d56f0;
+            margin: 20px 0px;
+            text-transform: uppercase;
+        }
+        .post-card {
+            display: flex;
+            margin-bottom: 20px;
+            img {
+                width: 100px;
+            }
+            h5 {
+                padding-left: 15px;
+                font-size: 18px;
+                margin-bottom: 8px;
+                font-weight: 600;
+            }
+            p {
+                padding-left: 15px;
+                color: #3d56f0;
+                span {
+                    i {
+                        padding: 0px 5px;
+                    }
+                }
+            }
+        }
+    }
+    .newsletter {
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #3d56f0;
+            margin: 20px 0px;
+            text-transform: uppercase;
+        }
+        form {
+            input {
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: none;
+                margin-bottom: 20px;
+            }
+            button {
+                padding: 10px 30px;
+                border-radius: 20px;
+                background-color: #ed5ab0;
+                border: none;
+                color: #fff;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
