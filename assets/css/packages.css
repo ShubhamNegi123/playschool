@@ -3,14 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 body * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
   list-style: none;
   text-decoration: none;
 }
-
 body h1,
 body h2,
 body h3,
@@ -27,24 +25,16 @@ body h4 {
   max-width: 100%;
   width: 100%;
   background-color: #fff;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-
 .navigation-bar .logo img {
   max-width: 100%;
   width: 100%;
 }
-
 .navigation-bar .header-navigation-links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .navigation-bar .header-navigation-links ul li a {
   color: #000;
   text-transform: uppercase;
@@ -53,11 +43,9 @@ body h4 {
 .about-packages {
   margin-top: 100px;
 }
-
 .about-packages .packages-image img {
   width: 100%;
 }
-
 .about-packages .packages-content h2 {
   letter-spacing: 5px;
   word-spacing: 5px;
@@ -66,7 +54,6 @@ body h4 {
   color: #000;
   color: #00a8ff;
 }
-
 .about-packages .packages-content p {
   font-size: 18px;
   font-weight: 300;
@@ -79,15 +66,12 @@ body h4 {
   margin-top: 100px;
   min-width: 768px;
 }
-
 .packages .packages-wrapper {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: scroll;
   height: 80vh;
   padding-bottom: 5px;
 }
-
 .packages h2 {
   letter-spacing: 5px;
   word-spacing: 5px;
@@ -96,14 +80,12 @@ body h4 {
   text-align: center;
   color: #00a8ff;
 }
-
 .packages .main-table {
   background-color: #574d65;
   padding: 5px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 .packages .main-table th {
   padding: 10px 0px;
   text-align: center;
@@ -112,27 +94,23 @@ body h4 {
   width: 25%;
   border-bottom: 1px solid #fff;
 }
-
 .packages .main-table th i {
   color: #fff;
 }
-
 .packages .main-table th:first-child {
-  text-align-last: left;
+  -moz-text-align-last: left;
+       text-align-last: left;
   padding-left: 15px;
   font-size: 30px;
   font-weight: bold;
 }
-
 .packages .main-table th span {
   text-decoration: line-through;
   color: rgba(255, 255, 255, 0.8);
 }
-
 .packages .main-table th span i {
   color: rgba(255, 255, 255, 0.8);
 }
-
 .packages .main-table td {
   padding: 10px 0px;
   text-align: center;
@@ -141,7 +119,6 @@ body h4 {
   width: 25%;
   border-bottom: 1px solid #fff;
 }
-
 .packages .main-table td a {
   color: #fff;
   font-weight: bold;
@@ -149,29 +126,20 @@ body h4 {
   padding: 10px 50px;
   cursor: pointer;
 }
-
 .packages .on-page-activities {
   background-color: #fff;
 }
-
 .packages .on-page-activities ul {
   display: none;
 }
-
 .packages .on-page-activities ul .outer-list:nth-child(2n) {
-  background-color: #e6e3e3;
+  background-color: rgb(230, 227, 227);
 }
-
 .packages .on-page-activities ul .outer-list ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-
 .packages .on-page-activities ul .outer-list ul li {
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-transform: capitalize;
   width: 25%;
@@ -181,25 +149,14 @@ body h4 {
   /*  color: $secondary-color; */
   padding: 5px 0px;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: #574d65;
 }
-
 .packages .on-page-activities ul .outer-list ul li:first-child {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
   padding: 5px 15px;
   font-weight: 700;
   color: #00a8ff;
@@ -208,44 +165,33 @@ body h4 {
   position: relative;
   text-transform: uppercase;
 }
-
 .packages .on-page-activities ul .outer-list ul li i {
   font-size: 20px;
 }
-
 .packages .on-page-activities ul .outer-list ul li .fa-circle-xmark {
   color: #4c7f00;
 }
-
 .packages .on-page-activities ul .outer-list ul li .fa-circle-check {
   color: #b1924f;
 }
-
 .packages .on-page-activities ul .outer-list ul:hover {
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
   background-color: #574d65;
 }
-
 .packages .on-page-activities ul .outer-list ul:hover li {
   color: #fff;
 }
-
 .packages .on-page-activities ul .outer-list ul:hover li i {
   color: #fff;
 }
-
 .packages .on-page-activities ul .click-list {
   margin: 10px 0px;
 }
-
 .packages .on-page-activities ul .click-list ul li {
   text-transform: capitalize;
   border: none;
 }
-
 .packages .on-page-activities ul .click-list ul li a {
   font-weight: bold;
   color: #fff;
@@ -254,14 +200,12 @@ body h4 {
   padding: 10px 50px;
   cursor: pointer;
 }
-
 .packages .on-page-activities ul .click-list ul li:first-child a {
   padding: 0px;
   background-color: #eee;
   border: none;
   color: #777;
 }
-
 .packages .on-page-activities ul {
   display: block;
 }
@@ -275,7 +219,6 @@ footer {
   position: relative;
   padding: 100px 0px;
 }
-
 footer::before {
   position: absolute;
   content: "";
@@ -286,11 +229,9 @@ footer::before {
   left: 0px;
   background-image: url(../images/line-bg1.png);
 }
-
 footer .footer-content img {
   width: 100%;
 }
-
 footer .footer-content p {
   margin-top: 20px;
   text-justify: auto;
@@ -301,7 +242,6 @@ footer .footer-content p {
   font-weight: 500;
   text-align: justify;
 }
-
 footer .info h4 {
   font-size: 20px;
   font-weight: 600;
@@ -309,11 +249,9 @@ footer .info h4 {
   margin: 20px 0px;
   text-transform: uppercase;
 }
-
 footer .info ul {
   list-style: disc;
 }
-
 footer .info ul li a {
   color: #191918;
   font-size: 16px;
@@ -323,7 +261,6 @@ footer .info ul li a {
   display: block;
   text-transform: uppercase;
 }
-
 footer .recent-post h4 {
   font-size: 20px;
   font-weight: 600;
@@ -331,34 +268,26 @@ footer .recent-post h4 {
   margin: 20px 0px;
   text-transform: uppercase;
 }
-
 footer .recent-post .post-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
 }
-
 footer .recent-post .post-card img {
   width: 100px;
 }
-
 footer .recent-post .post-card h5 {
   padding-left: 15px;
   font-size: 18px;
   margin-bottom: 8px;
   font-weight: 600;
 }
-
 footer .recent-post .post-card p {
   padding-left: 15px;
   color: #3d56f0;
 }
-
 footer .recent-post .post-card p span i {
   padding: 0px 5px;
 }
-
 footer .newsletter h4 {
   font-size: 20px;
   font-weight: 600;
@@ -366,14 +295,12 @@ footer .newsletter h4 {
   margin: 20px 0px;
   text-transform: uppercase;
 }
-
 footer .newsletter form input {
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
   margin-bottom: 20px;
 }
-
 footer .newsletter form button {
   padding: 10px 30px;
   border-radius: 20px;
@@ -381,5 +308,4 @@ footer .newsletter form button {
   border: none;
   color: #fff;
   text-transform: uppercase;
-}
-/*# sourceMappingURL=packages.css.map */
+}/*# sourceMappingURL=packages.css.map */

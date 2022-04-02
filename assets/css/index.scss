@@ -90,9 +90,14 @@ header {
                 text-transform: uppercase;
                 background: #00a8ff;
                 box-shadow: 0 6px #0072bf;
+                transition: all .3s ease;
                 color: #fff;
                 i {
                     margin-left: 10px;
+                }
+                &:hover{
+                    transition: all .3s ease;
+                    box-shadow: 0 6px #00a8ff;
                 }
             }
         }
@@ -227,7 +232,7 @@ header {
 }
 
 .about {
-    margin-top: 500px;
+    margin-top: 400px;
     .about-us-content {
         h2 {
             font-weight: 700;
@@ -257,9 +262,14 @@ header {
             text-transform: uppercase;
             background: #00a8ff;
             box-shadow: 0 6px #0072bf;
+            transition: all .3s ease;
             color: #fff;
             i {
                 margin: 10px;
+            }
+            &:hover{
+                transition: all .3s ease;
+                box-shadow: 0 6px #00a8ff;
             }
         }
     }

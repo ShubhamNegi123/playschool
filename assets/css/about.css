@@ -3,14 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 body * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
   list-style: none;
   text-decoration: none;
 }
-
 body h1,
 body h2,
 body h3,
@@ -27,24 +25,16 @@ body h4 {
   max-width: 100%;
   width: 100%;
   background-color: #fff;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-
 .navigation-bar .logo img {
   max-width: 100%;
   width: 100%;
 }
-
 .navigation-bar .header-navigation-links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .navigation-bar .header-navigation-links ul li a {
   color: #000;
   text-transform: uppercase;
@@ -60,7 +50,6 @@ body h4 {
   padding: 50px;
   background-color: #f2e1ab;
 }
-
 .mission-vision::before {
   position: absolute;
   content: "";
@@ -70,64 +59,52 @@ body h4 {
   top: -25px;
   left: 0px;
 }
-
 .mission-vision::after {
   position: absolute;
   content: "";
   width: 100%;
   height: 50px;
   background-image: url(../images/cloud.png);
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   bottom: -20px;
   left: 0px;
 }
-
 .mission-vision .mv-card-wrapper {
   background-image: url(../images/mask-img2.png);
   background-size: cover;
   height: 330px;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .mission-vision .mv-card-wrapper .mv-card {
   text-align: center;
   padding: 50px;
 }
-
 .mission-vision .mv-card-wrapper .mv-card h2 {
   color: #3d56f0;
   text-transform: capitalize;
 }
-
 .mission-vision .mv-card-wrapper .mv-card h2 i {
   color: #f9c404;
 }
-
 .mission-vision .mv-card-wrapper .mv-card p {
   color: #afafaf;
   margin-bottom: 20px;
 }
-
 .mission-vision .mv-card-wrapper .mv-card span {
   text-transform: capitalize;
   background-color: #f9c404;
   padding: 8px 20px;
   color: #fff;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .about-us {
   margin-top: 100px;
   margin-bottom: 50px;
 }
-
 .about-us .about-content h2 {
   font-weight: 700;
   font-size: 50px;
@@ -139,26 +116,21 @@ body h4 {
   position: relative;
   text-transform: uppercase;
 }
-
 .about-us .about-content h2 span {
   color: #00a8ff;
 }
-
 .about-us .about-content p {
   color: #6b6a6a;
   margin-bottom: 20px;
 }
-
 .about-us .about-content ul li {
   color: #6b6a6a;
 }
-
 .about-us .about-content ul li i {
   font-size: 14px;
   margin-right: 10px;
   color: #00a8ff;
 }
-
 .about-us .about-img img {
   width: 100%;
 }
@@ -168,7 +140,6 @@ footer {
   position: relative;
   padding: 100px 0px;
 }
-
 footer::before {
   position: absolute;
   content: "";
@@ -179,11 +150,9 @@ footer::before {
   left: 0px;
   background-image: url(../images/line-bg1.png);
 }
-
 footer .footer-content img {
   width: 100%;
 }
-
 footer .footer-content p {
   margin-top: 20px;
   text-justify: auto;
@@ -194,7 +163,6 @@ footer .footer-content p {
   font-weight: 500;
   text-align: justify;
 }
-
 footer .info h4 {
   font-size: 20px;
   font-weight: 600;
@@ -202,11 +170,9 @@ footer .info h4 {
   margin: 20px 0px;
   text-transform: uppercase;
 }
-
 footer .info ul {
   list-style: disc;
 }
-
 footer .info ul li a {
   color: #191918;
   font-size: 16px;
@@ -216,7 +182,6 @@ footer .info ul li a {
   display: block;
   text-transform: uppercase;
 }
-
 footer .recent-post h4 {
   font-size: 20px;
   font-weight: 600;
@@ -224,34 +189,26 @@ footer .recent-post h4 {
   margin: 20px 0px;
   text-transform: uppercase;
 }
-
 footer .recent-post .post-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
 }
-
 footer .recent-post .post-card img {
   width: 100px;
 }
-
 footer .recent-post .post-card h5 {
   padding-left: 15px;
   font-size: 18px;
   margin-bottom: 8px;
   font-weight: 600;
 }
-
 footer .recent-post .post-card p {
   padding-left: 15px;
   color: #3d56f0;
 }
-
 footer .recent-post .post-card p span i {
   padding: 0px 5px;
 }
-
 footer .newsletter h4 {
   font-size: 20px;
   font-weight: 600;
@@ -259,14 +216,12 @@ footer .newsletter h4 {
   margin: 20px 0px;
   text-transform: uppercase;
 }
-
 footer .newsletter form input {
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
   margin-bottom: 20px;
 }
-
 footer .newsletter form button {
   padding: 10px 30px;
   border-radius: 20px;
@@ -274,5 +229,4 @@ footer .newsletter form button {
   border: none;
   color: #fff;
   text-transform: uppercase;
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */
