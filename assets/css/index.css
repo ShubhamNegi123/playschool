@@ -209,6 +209,7 @@ header .owl-nav .owl-prev span {
 
 .about {
   margin-top: 400px;
+  margin-bottom: 50px;
 }
 .about .about-us-content h2 {
   font-weight: 700;
@@ -294,10 +295,9 @@ header .owl-nav .owl-prev span {
   z-index: 9;
 }
 .fixed-image-section .image-section-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 60px;
   margin-bottom: 5px;
-  font-family: "Roboto", sans-serif;
   color: #fff000;
 }
 .fixed-image-section .image-section-content p {
@@ -307,6 +307,14 @@ header .owl-nav .owl-prev span {
   font-weight: 300;
   line-height: 30px;
   font-family: "Roboto", sans-serif;
+}
+.fixed-image-section .image-section-content ul {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.fixed-image-section .image-section-content ul li {
+  list-style: disc;
+  color: #fff;
 }
 
 .testimonials {
@@ -403,6 +411,24 @@ header .owl-nav .owl-prev span {
   position: relative;
   text-transform: uppercase;
   text-align: center;
+}
+.clients .client-logo img {
+  width: 100%;
+}
+.clients .see-all-clients {
+  padding: 15px 40px 15px 40px;
+  text-transform: uppercase;
+  background: #00a8ff;
+  box-shadow: 0 6px #0072bf;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.clients .see-all-clients i {
+  padding-left: 5px;
+}
+.clients .see-all-clients:hover {
+  transition: all 0.3s ease;
+  box-shadow: 0 6px #00a8ff;
 }
 
 .logs {
@@ -525,7 +551,6 @@ footer .newsletter form input {
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
-  margin-bottom: 20px;
 }
 footer .newsletter form button {
   padding: 10px 30px;
@@ -534,4 +559,10 @@ footer .newsletter form button {
   border: none;
   color: #fff;
   text-transform: uppercase;
+}
+footer .newsletter form .error {
+  color: red;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  display: none;
 }/*# sourceMappingURL=index.css.map */

@@ -78,6 +78,15 @@ body {
             font-family: "Roboto", sans-serif;
             color: #574d65;
         }
+        ul{
+            margin-top: 15px;
+            padding-left: 15px;
+            li{
+                list-style: disc;
+                margin-bottom: 8px;
+                color: #574d65;
+            }
+        }
     }
 }
 
@@ -103,6 +112,10 @@ body {
         padding: 5px;
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.2);
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        z-index: 99;
         th {
             padding: 10px 0px;
             text-align: center;
