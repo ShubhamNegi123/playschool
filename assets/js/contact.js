@@ -14,21 +14,21 @@ $(function () {
         let name = $('#name').val();
         let len = name.length;
         if (name === '') {
-            $('form .name-error').css({
+            $('#form .name-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .name-error').text('Name can not be empty');
+            $('#form .name-error').text('Name can not be empty');
             nameValid = false;
         } else if (len < 3 || len > 20) {
-            $('form .name-error').css({
+            $('#form .name-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .name-error').text('Enter a valid name');
+            $('#form .name-error').text('Enter a valid name');
             nameValid = false;
         } else {
-            $('form .name-error').css({
+            $('#form .name-error').css({
                 opacity: '0',
                 visibility: 'hidden',
             });
@@ -40,24 +40,24 @@ $(function () {
         let email = $('#email').val();
         let regex = /^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]){2,7}$/;
         if (regex.test(email)) {
-            $('form .email-error').css({
+            $('#form .email-error').css({
                 opacity: '0',
                 visibility: 'hidden',
             });
             emailValid = true;
         } else if (email === '') {
-            $('form .email-error').css({
+            $('#form .email-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .email-error').text('Email can not be empty');
+            $('#form .email-error').text('Email can not be empty');
             emailValid = false;
         } else {
-            $('form .email-error').css({
+            $('#form .email-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .email-error').text('Enter a valid Email');
+            $('#form .email-error').text('Enter a valid Email');
             emailValid = false;
         }
     }
@@ -66,21 +66,21 @@ $(function () {
         let phone = $('#phone').val();
         let len = phone.length;
         if (phone === '') {
-            $('form .phone-error').css({
+            $('#form .phone-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .phone-error').text('phone can not be empty');
+            $('#form .phone-error').text('phone can not be empty');
             phoneValid = false;
         } else if (len != 10) {
-            $('form .phone-error').css({
+            $('#form .phone-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .phone-error').text('Enter a valid phone number');
+            $('#form .phone-error').text('Enter a valid phone number');
             phoneValid = false;
         } else {
-            $('form .phone-error').css({
+            $('#form .phone-error').css({
                 opacity: '0',
                 visibility: 'hidden',
             });
@@ -91,14 +91,14 @@ $(function () {
    
     function isServiceValid() {
         if (selectedServices === 'select') {
-            $('form .services-error').css({
+            $('#form .services-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .services-error').text('Please select a service');
+            $('#form .services-error').text('Please select a service');
             serviceValid = false;
         } else {
-            $('form .services-error').css({
+            $('#form .services-error').css({
                 opacity: '0',
                 visibility: 'hidden',
             });
@@ -110,21 +110,21 @@ $(function () {
         let message = $('#message').val();
         let len = message.length;
         if (message === '') {
-            $('form .message-error').css({
+            $('#form .message-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .message-error').text('Message can not be empty');
+            $('#form .message-error').text('Message can not be empty');
             messageValid = false;
         } else if (len < 10 ) {
-            $('form .message-error').css({
+            $('#form .message-error').css({
                 opacity: '1',
                 visibility: 'visible',
             });
-            $('form .message-error').text('Enter a valid message');
+            $('#form .message-error').text('Enter a valid message');
             messageValid = false;
         } else {
-            $('form .message-error').css({
+            $('#form .message-error').css({
                 opacity: '0',
                 visibility: 'hidden',
             });
@@ -172,7 +172,7 @@ $(function () {
    
     
 
-    $("form").submit(function (event) {
+    $("#submit").hover(function (event) {
         event.preventDefault();
         isNameValid();
         isEmailValid();
@@ -181,7 +181,6 @@ $(function () {
 
         if (nameValid && emailValid && phoneValid && messageValid) {
             $('#newsletter label').hide();
-            window.location = 'index.html'
         } else {
            $('.submit-error').css({
             opacity: '1',

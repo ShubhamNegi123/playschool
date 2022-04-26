@@ -34,8 +34,7 @@ body {
     max-width: 100%;
     width: 100%;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-    .logo {
+   .logo {
         img {
             max-width: 100%;
             width: 100%;
@@ -79,14 +78,14 @@ body {
     .portfolio-wrapper {
         img {
             width: 100%;
+            cursor: pointer;
         }
     }
 }
 
-
-.model-image-wrapper{
+.model-image-wrapper {
     position: fixed;
-    background-color: rgba(57, 131, 199,0.7);
+    background-color: rgba(57, 131, 199, 0.7);
     top: 0px;
     left: 0px;
     max-width: 100vw;
@@ -97,12 +96,12 @@ body {
     z-index: 9999;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     display: none;
-    .model-image{   
-        position: relative;          
-        width: 35%;    
-        .fa-circle-xmark{
+    .model-image {
+        position: relative;
+        width: 35%;
+        .fa-circle-xmark {
             color: #fff;
             font-size: 30px;
             cursor: pointer;
@@ -110,7 +109,7 @@ body {
             top: -30px;
             right: -30px;
         }
-        img{
+        img {
             max-width: 100%;
             width: 100%;
         }
@@ -118,112 +117,5 @@ body {
 }
 
 
-footer {
-    background-color: #c4eafb;
-    position: relative;
-    padding: 100px 0px;
-    &::before {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 50px;
-        z-index: 9;
-        top: 0px;
-        left: 0px;
-        background-image: url(../images/line-bg1.png);
-    }
-    .footer-content {
-        img {
-            width: 100%;
-        }
-        p {
-            margin-top: 20px;
-            text-justify: auto;
-            font-size: 18px;
-            line-height: 32px;
-            color: #000;
-            text-transform: capitalize;
-            font-weight: 500;
-            text-align: justify;
-        }
-    }
-    .info {
-        h4 {
-            font-size: 20px;
-            font-weight: 600;
-            color: #3d56f0;
-            margin: 20px 0px;
-            text-transform: uppercase;
-        }
-        ul {
-            list-style: disc;
-            li {
-                a {
-                    color: #191918;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: 28px;
-                    margin-bottom: 8px;
-                    display: block;
-                    text-transform: uppercase;
-                }
-            }
-        }
-    }
-    .recent-post {
-        h4 {
-            font-size: 20px;
-            font-weight: 600;
-            color: #3d56f0;
-            margin: 20px 0px;
-            text-transform: uppercase;
-        }
-        .post-card {
-            display: flex;
-            margin-bottom: 20px;
-            img {
-                width: 100px;
-            }
-            h5 {
-                padding-left: 15px;
-                font-size: 18px;
-                margin-bottom: 8px;
-                font-weight: 600;
-            }
-            p {
-                padding-left: 15px;
-                color: #3d56f0;
-                span {
-                    i {
-                        padding: 0px 5px;
-                    }
-                }
-            }
-        }
-    }
-    .newsletter {
-        h4 {
-            font-size: 20px;
-            font-weight: 600;
-            color: #3d56f0;
-            margin: 20px 0px;
-            text-transform: uppercase;
-        }
-        form {
-            input {
-                padding: 10px 20px;
-                border-radius: 20px;
-                border: none;
-                margin-bottom: 20px;
-            }
-            button {
-                padding: 10px 30px;
-                border-radius: 20px;
-                background-color: #ed5ab0;
-                border: none;
-                color: #fff;
-                text-transform: uppercase;
-            }
-        }
-    }
-}
+
+

@@ -24,7 +24,7 @@ $(function(){
         isFormValid(); 
     }); 
 
-    $("form").submit(function(event){
+    $(".newsletter form").submit(function(event){
         event.preventDefault();      
         if(isEmailValid){
             $('.newsletter label').hide();
