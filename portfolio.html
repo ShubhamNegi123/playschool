@@ -6,9 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  user-scalable="no">
     <title>Contact Us</title>
 
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap-5.0.2-dist/bootstrap.min.css">
 
@@ -20,9 +23,14 @@
 
     <!-- jquery cdn -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+    <!-- <script>
+        $(function () {
+            $("#navigation-bar").load("navigation-bar.html");
+        });
+    </script> -->
     <!-- css file -->
     <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/header-footer.css">
 
 </head>
 
@@ -30,20 +38,21 @@
 
     <section class="navigation-bar">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-3">
+            <div class="row justify-content-sm-between align-items-center">
+                <div class="col-lg-3 col-4">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                        <a href="index.html"><img src="assets/images/footer-logo.png" alt="logo"></a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-8">
                     <div class="header-navigation-links">
+                        <i class="fa-solid fa-bars"></i>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">about</a></li>
-                            <li><a href="packages.html">packages</a></li>
-                            <li><a href="portfolio.html">portfolio</a></li>
-                            <li><a href="contact.html">contact</a></li>
+                            <li><a  class="header-nav-home" href="index.html">Home</a></li>
+                            <li><a  class="header-nav-about" href="about-us.html">about</a></li>
+                            <li><a  class="header-nav-packages" href="packages.html">packages</a></li>
+                            <li><a  class="header-nav-portfolio" href="portfolio.html">portfolio</a></li>
+                            <li><a  class="header-nav-contact" href="contact.html">contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,187 +60,164 @@
         </div>
     </section>
 
-
-    <div class="banner">
-        <img src="assets/images/slide01.jpg" alt="banner">
+    <div class="banner ">
+        <img src="assets/images/banners/portfolio.jpg" alt="banner">
     </div>
 
     <section class="clients">
         <div class="container">
             <h2>Portfolio</h2>
-           <div class="row">
-               <div class="col-lg-3 mt-4">
+           <div class="row justify-content-center">
+               <div class="col-lg-3 col-4 mt-4">
                    <div class="portfolio-wrapper">
-                       <img src="assets/images/school-portfolio/11.jpg" alt="school-portfolio">
+                       <img src="assets/images/school-portfolio/k11.jpg" alt="school-portfolio">
                    </div>
                </div>
-               <div class="col-lg-3 mt-4">
+               <div class="col-lg-3 col-4 mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/11.jpg" alt="school-portfolio">
+                </div>
+            </div>
+               <div class="col-lg-3 col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/12.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3 col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/13.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3 col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/14.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/15.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/16.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
+          
+           
+            <div class="col-lg-3 col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/21.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3 col-4 mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/22.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3 col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/23.png" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3 col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/24.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3 col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/25.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3  col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/26.png" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3  col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/27.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3  col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/28.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
+            <div class="col-lg-3  col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/29.jpg" alt="school-portfolio">
                 </div>
             </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/logo1.png" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/logo2.png" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/logo3.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/logo4.png" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/logo5.png" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/logo6.png" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
+           
+            <div class="col-lg-3  col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/option 2.jpg" alt="school-portfolio">
                 </div>
             </div>
            
-            <div class="col-lg-3 mt-4">
+           
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k2.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k9.jpg" alt="school-portfolio">
+                </div>
+            </div>
+           
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k5.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k6.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k7.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/15.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k8.jpg" alt="school-portfolio">
+                </div>
+            </div>
+          
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k10.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k3.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k4.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/k1.jpg" alt="school-portfolio">
+                </div>
+            </div>
+            <div class="col-lg-3  col-4  mt-4">
+                <div class="portfolio-wrapper">
+                    <img src="assets/images/school-portfolio/16.jpg" alt="school-portfolio">
+                </div>
+            </div>
+           
+            <div class="col-lg-3  col-4  mt-4">
                 <div class="portfolio-wrapper">
                     <img src="assets/images/school-portfolio/optionl2.jpg" alt="school-portfolio">
                 </div>
             </div>
            
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k1.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k2.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k3.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k4.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k5.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k6.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k7.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k8.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k9.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/k10.jpg" alt="school-portfolio">
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4">
-                <div class="portfolio-wrapper">
-                    <img src="assets/images/school-portfolio/calendar2.jpg" alt="school-portfolio">
-                </div>
-            </div>
+
            </div>
         </div>
     </section>
@@ -243,72 +229,33 @@
         </div>
     </section>
 
-
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 ">
-                    <div class="footer-content">
-                        <img src="assets/images/logo.png" alt="footer-logo">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consectetur At Adipisicing Elit, Sed Do Eiusmod Tempor Incididunt
-                            Ut Labore Et Dolore Magna The Are Aliqua.</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 offset-1">
-                    <div class="info">
-                        <h4>INFORMATION</h4>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about-us.html">about</a></li>
-                            <li><a href="packages.html">packages</a></li>
-                            <li><a href="portfolio.html">portfolio</a></li>
-                            <li><a href="contact.html">contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 ">
-                    <div class="recent-post">
-                        <h4>RECENT POSTS</h4>
-                        <div class="post-card">
-                            <div>
-                                <img src="assets/images/pic1.jpg" alt="post-img">
-                            </div>
-                            <div>
-                                <h5>What It's Like <br> Dating.</h5>
-                                <p>BY JONE | <span><i class="fa-solid fa-comments"></i> 28</span></p>
-                            </div>
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class=" col-lg-6 col-md-8 col-10">
+                    <div class="footer">
+                        <img src="assets/images/footer-logo.png" alt="logo">
+                        <div class="footer-nav">
+                            <a href="index.html"> <i title="Home" class="fa-solid fa-house"></i></a>
+                            <a href="about-us.html"> <i title="About" class="fa-solid fa-address-card"></i></a>
+                            <a href="packages.html"> <i title="Packages" class="fa-solid fa-box-open"></i></a>
+                            <a href="portfolio.html"> <i title="Portfolio" class="fa-solid fa-book-open"></i></a>
+                            <a href="contact.html"> <i title="Contact" class="fa-solid fa-id-card-clip"></i></a>
                         </div>
-                        <div class="post-card">
-                            <div>
-                                <img src="assets/images/pic2.jpg" alt="post-img">
-                            </div>
-                            <div>
-                                <h5>What It's Like <br> Dating.</h5>
-                                <p>BY JONE | <span><i class="fa-solid fa-comments"></i> 28</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="newsletter">
-                        <h4>NEWSLETTER</h4>
-                        <form >
-                            <input type="text" placeholder="Your Email Address" id="newsletter" name="email">
-                            <br>
-                            <label for="" class="error ">error</label>
-                            <br>
-                            <button type="submit">Subscribe</button>                           
-                        </form>
                     </div>
                 </div>
             </div>
         </div>
+
+        <p class="copyright">Copyright ©2022 Wall Communication Pvt. Ltd. | All Rights Reserved</p>
     </footer>
 
     <!-- jquery cdn -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="assets/js/contact.js"></script>
+    <script src="assets/js/newsletter.js"></script>
+    <script src="assets/js/header-footer.js"></script>
 
     <script>
         $(function () {
